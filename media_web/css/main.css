@@ -1,0 +1,39 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  width: 100%;
+}
+
+#container{
+  margin-bottom: 80%;
+}
+
+contents-list{
+  width: 60%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+
+.post{
+  width: 70%;
+  height: 70%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.post-img{
+  max-width: 30%;
+  max-height: 60%;
+  float: left;
+}
+
+.post-p{
+  max-width: 70%;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-left: 5px;
+}
