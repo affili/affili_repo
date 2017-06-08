@@ -70,12 +70,14 @@ a{
   height: 500px;
   background-color: #9B9B9B;
 }
+#right-side{
+  float: right;
+}
 #nav-category ul{
   width: 235px;
   min-height:  279px;
   height: auto;
   background-color: white;
-  float: right;
   font-family: 'Hiragino Sans';
   font-weight: 800;
   list-style: none;
@@ -105,35 +107,49 @@ a{
   padding: 17px 0px 17px 38px;
 }
 
-#saide-ranking{
+#saide-ranking ul{
   width: 235px;
   height: auto;
-  background-color: white;
-  margin: 60px 47px 10px 49px;
-  padding-top: 100px;
-}
-
-.saide-ranking-ul{
   list-style:none;
+  background-color: white;
+  margin: 10px 47px 10px 49px;
 }
-
-.saide-ranking-li{
-  clear: both;
-  line-height: 1.2;
+#saide-ranking li{
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
-
+.saide-ranking-li p {
+color: #4A4A4A;
+}
+.date{
+  font-weight: 600;
+  font-size: 12px;
+}
+.ranking-title{
+  font-weight: bold;
+  font-size: 13px;
+  color: #4A4A4A;
+}
 .saide-ranking-img{
   width: 90px;
   height: 80px;
+  padding-right: 8px;
   float: left;
 }
-
-.category-text{
-  list-style: none;
-  padding: 17px 0px 17px 38px;
-  border-bottom: 1px solid #979797;
+.saide-ranking-bottom a{
+  display: block;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #9B9B9B;
+  border-bottom-right-radius: 12px;
 }
-
+.saide-ranking-li a{
+  display: block;
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid #9B9B9B;
+  border-left: 1px solid #9B9B9B;
+  border-top: 1px solid #9B9B9B;
+}
 .post{
   width: 80%;
   word-wrap: break-word;
