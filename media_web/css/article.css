@@ -26,7 +26,120 @@ html,body{
 
 .top-category h3{
   margin-top: 0;
+  padding-top: 10px;
   padding-left: 150px;
+}
+
+
+#article-area{
+  width: 68%;
+  background-color: white;
+  padding-left: 20px;
+  float: left;
+  background-color: green;
+}
+
+#article-area h2{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.article-category{
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.article-day{
+  float: right;
+  margin-top: -50px;
+  margin-right: 50px;
+}
+
+.article-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article p{
+  padding-left: 40px;
+  word-wrap: break-word;
+}
+
+.ad-yoko{
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#article-right{
+  width: 28%;
+  height: none;
+  background-color: blue;
+  float: right;
+  padding-right: 20px;
+}
+
+#article-right h3{
+  width: 336px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #9B9B9B;
+  margin-left: 40px;
+  margin-bottom: -18px;
+  color: white;
+  padding-top: 15px;
+}
+
+#article-right ul{
+  list-style: none;
+}
+
+
+#saide-ranking ul{
+  width: 235px;
+  height: auto;
+  list-style:none;
+  background-color: white;
+  margin: 10px 47px 10px 49px;
+}
+#saide-ranking li{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.saide-ranking-li p {
+color: #4A4A4A;
+}
+.date{
+  font-weight: 600;
+  font-size: 12px;
+}
+.ranking-title{
+  font-weight: bold;
+  font-size: 13px;
+  color: #4A4A4A;
+}
+.saide-ranking-img{
+  width: 90px;
+  height: 80px;
+  padding-right: 8px;
+  float: left;
+}
+.saide-ranking-bottom a{
+  display: block;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #9B9B9B;
+  border-bottom-right-radius: 12px;
+}
+.saide-ranking-li a{
+  display: block;
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid #9B9B9B;
+  border-left: 1px solid #9B9B9B;
+  border-top: 1px solid #9B9B9B;
 }
 
 
