@@ -209,13 +209,13 @@ http://mediaxis.jp/
         <img src="image/said-ad.png" alt="drone" class="saide-ad" />
       </div>
     </div><!--article-right-->
-
+</div><!--article-continer-->
 
   <footer class="footer-article">
     <h3>sample footer</h3>
       <p>Copyright © 2014-2015 Syncer All Rights Reserved.</p>
   </footer>
 
-</div><!--article-continer-->
+
 </body>
 </html>

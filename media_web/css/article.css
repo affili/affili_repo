@@ -1,8 +1,14 @@
-#article-continer{
-  position: relative;
-  width: 100%;
-  height: auto !important;
+html{
   height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+#article-continer{
+  width: 100%;
+  height: auto ;
   min-height: 100%;
   background-color: #d3d3d3;
 }
@@ -28,8 +34,9 @@
 
 #article-wap{
   width: 90%;
-  height: 3300px;
+  height: 3000px;
   margin-left: 50px;
+  margin-bottom: 90px;
 }
 
 .top-category h3{
@@ -69,10 +76,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
 
 article p{
-  padding-left: 40px;
+  padding-left: 3%;
+  padding-right: 3%;
   word-wrap: break-word;
 }
 
@@ -81,10 +90,12 @@ article p{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
+  border: 1px solid #c0c0c0;
 }
 
 .ad-wid-img{
-  padding-left: 70px;
+  padding-left: 10%;
 }
 
 .card {
@@ -95,6 +106,7 @@ article p{
   float: left;
   margin-left: 40px;
   margin-top: 20px;
+  height: 338.56px;
 }
 .card-img {
   border-radius: 5px 5px 0 0;
@@ -288,13 +300,14 @@ color: #4A4A4A;
 .footer-article
 {
   color:white;
-  position: absolute;
   bottom: 0;
   left: 0;
   height:90px;
   width: 100%;
   text-align: center;
   background-color: black;
+  margin: 0 auto;
+
 }
 
 .footer-article h3{
