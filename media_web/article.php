@@ -24,7 +24,7 @@ http://mediaxis.jp/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
+<div id="article-continer">
     <!-- Header -->
     <div id="header-article" class="header-article">
       <div id="logo-article">
@@ -98,9 +98,10 @@ http://mediaxis.jp/
 
         <div class="ad-wid">
           <img src="image/ad-wid.png" alt="ad-wid" class="ad-wid-img" />
+          <img src="image/ad-wid.png" alt="ad-wid" class="ad-wid-img" />
         </div>
 
-        <div class="new-contents">
+        <div id="new-contents">
           <section class="card">
             <img class="card-img" src="image/newyork.jpg" alt="">
             <div class="card-content">
@@ -108,8 +109,62 @@ http://mediaxis.jp/
               <p class="card-text">ガジェット最新情報</p>
             </div>
             <div class="card-link">
-              <a href="http://webcreatorbox.com/about">About</a>
-              <a href="http://webcreatorbox.com/">Website</a>
+              <a href="#">もっとみる</a>
+            </div>
+          </section>
+
+          <section class="card">
+            <img class="card-img" src="image/newyork.jpg" alt="">
+            <div class="card-content">
+              <h1 class="card-title">New Content</h1>
+              <p class="card-text">ガジェット最新情報</p>
+            </div>
+            <div class="card-link">
+              <a href="#">もっとみる</a>
+            </div>
+          </section>
+
+          <section class="card">
+            <img class="card-img" src="image/newyork.jpg" alt="">
+            <div class="card-content">
+              <h1 class="card-title">New Content</h1>
+              <p class="card-text">ガジェット最新情報</p>
+            </div>
+            <div class="card-link">
+              <a href="#">もっとみる</a>
+            </div>
+          </section>
+
+          <section class="card">
+            <img class="card-img" src="image/newyork.jpg" alt="">
+            <div class="card-content">
+              <h1 class="card-title">New Content</h1>
+              <p class="card-text">ガジェット最新情報</p>
+            </div>
+            <div class="card-link">
+              <a href="#">もっとみる</a>
+            </div>
+          </section>
+
+          <section class="card">
+            <img class="card-img" src="image/newyork.jpg" alt="">
+            <div class="card-content">
+              <h1 class="card-title">New Content</h1>
+              <p class="card-text">ガジェット最新情報</p>
+            </div>
+            <div class="card-link">
+              <a href="#">もっとみる</a>
+            </div>
+          </section>
+
+          <section class="card">
+            <img class="card-img" src="image/newyork.jpg" alt="">
+            <div class="card-content">
+              <h1 class="card-title">New Content</h1>
+              <p class="card-text">ガジェット最新情報</p>
+            </div>
+            <div class="card-link">
+              <a href="#">もっとみる</a>
             </div>
           </section>
         </div><!--new-contents-->
@@ -149,12 +204,18 @@ http://mediaxis.jp/
         </a>
         </li>
       </ul>
+
+      <div class="right-ad">
+        <img src="image/said-ad.png" alt="drone" class="saide-ad" />
+      </div>
     </div><!--article-right-->
 
 
-  <footer class="footer">
+  <footer class="footer-article">
     <h3>sample footer</h3>
       <p>Copyright © 2014-2015 Syncer All Rights Reserved.</p>
   </footer>
+
+</div><!--article-continer-->
 </body>
 </html>

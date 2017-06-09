@@ -1,6 +1,16 @@
+#article-continer{
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  background-color: #d3d3d3;
+}
 
 #header-article{
   height: 70px;
+  width: 100%;
+  background-color: white;
 }
 #logo-article {
   height: 60px;
@@ -17,9 +27,9 @@
 }
 
 #article-wap{
-  width: 100%;
-  height: auto;
-  background-color: #dcdcdc;
+  width: 90%;
+  height: 3300px;
+  margin-left: 50px;
 }
 
 .top-category h3{
@@ -35,7 +45,7 @@
   background-color: white;
   padding-left: 20px;
   float: left;
-  background-color: green;
+  background-color: white;
 }
 
 #article-area h2{
@@ -73,11 +83,18 @@ article p{
   margin-right: auto;
 }
 
+.ad-wid-img{
+  padding-left: 70px;
+}
+
 .card {
-  width: 350px;
+  width: 250px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 .card-img {
   border-radius: 5px 5px 0 0;
@@ -85,23 +102,23 @@ article p{
   height: auto;
 }
 .card-content {
-  padding: 20px;
+  padding: 10px;
 }
 .card-title {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: center;
   color: #333;
 }
 .card-text {
   color: #777;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.0;
 }
 .card-link {
   text-align: center;
   border-top: 1px solid #eee;
-  padding: 20px;
+  padding: 15px;
 }
 .card-link a {
   text-decoration: none;
@@ -115,7 +132,6 @@ article p{
 #article-right{
   width: 28%;
   height: none;
-  background-color: blue;
   float: right;
   padding-right: 20px;
 }
@@ -178,6 +194,13 @@ color: #4A4A4A;
   border-right: 1px solid #9B9B9B;
   border-left: 1px solid #9B9B9B;
   border-top: 1px solid #9B9B9B;
+}
+
+.right-ad{
+  width: 65%;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 
 #share{
@@ -262,11 +285,11 @@ color: #4A4A4A;
 }
 
 
-.footer
+.footer-article
 {
   color:white;
   position: absolute;
-  bottom: -2000px;
+  bottom: 0;
   left: 0;
   height:90px;
   width: 100%;
@@ -274,6 +297,6 @@ color: #4A4A4A;
   background-color: black;
 }
 
-.footer h3{
-  padding-top: 15px;
+.footer-article h3{
+  padding-top: 5px;
 }
