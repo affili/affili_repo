@@ -163,13 +163,14 @@ color: #4A4A4A;
 
 .footer
 {
+  color:white;
   position: absolute;
   bottom: -1680px;
   left: 0;
   height:90px;
   width: 100%;
   text-align: center;
-  background-color: #696969;
+  background-color: black;
 }
 
 .footer h3{
