@@ -18,21 +18,26 @@ html,body{
 .post{
   width: 800px;
   height: 195px;
+  margin-bottom: 20px;
   padding-bottom: 10px;
-  padding-left: 73px;
+  padding-left: 30px;
+  border: solid 1px #c0c0c0;
+  box-shadow: 5px 5px 10px #999;
 }
 
 .post-img{
   width: 210px;
   height: 155px;
   padding-right: 10px;
+  padding-top: 20px;
   float: left;
 }
 
 .post-text{
-  width: 550px;
+  width: 500px;
   padding-left: 10px;
   display: block;
+  margin-top: 25px;
 }
 a{
   color: #4A4A4A;
@@ -165,4 +170,8 @@ color: #4A4A4A;
   width: 100%;
   text-align: center;
   background-color: #696969;
+}
+
+.footer h3{
+  padding-top: 15px;
 }
