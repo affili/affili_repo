@@ -1,6 +1,4 @@
-html,body{
-  width: 100%;
-}
+
 #header-article{
   height: 70px;
 }
@@ -32,7 +30,8 @@ html,body{
 
 
 #article-area{
-  width: 68%;
+  width: 65%;
+  height: auto;
   background-color: white;
   padding-left: 20px;
   float: left;
@@ -72,6 +71,45 @@ article p{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.card {
+  width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+}
+.card-link a:hover {
+  color: #0090aa;
 }
 
 #article-right{
@@ -142,6 +180,11 @@ color: #4A4A4A;
   border-top: 1px solid #9B9B9B;
 }
 
+#share{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
 #share ul{
 	height:auto;
 }
@@ -209,12 +252,21 @@ color: #4A4A4A;
 	color:#ffffff;
 }
 
+.back-url{
+  margin-top: 110px;
+}
+
+.back-url a{
+  text-decoration: none;
+  font-size: 25px;
+}
+
 
 .footer
 {
   color:white;
   position: absolute;
-  bottom: -1680px;
+  bottom: -2000px;
   left: 0;
   height:90px;
   width: 100%;
