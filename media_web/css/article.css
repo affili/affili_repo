@@ -1,0 +1,47 @@
+html,body{
+  width: 100%;
+}
+#header-article{
+  height: 70px;
+}
+#logo-article {
+  height: 60px;
+  width: 1024px;
+  margin: 0 auto;
+
+}
+.top-name-article{
+  font-style: 'Helvetica';
+  font-weight: bold;
+  font-size: 24px;
+  padding: 14px 0 15px 60px;
+  margin-bottom: 0;
+}
+
+#article-wap{
+  width: 100%;
+  height: auto;
+  background-color: #dcdcdc;
+}
+
+.top-category h3{
+  margin-top: 0;
+  padding-left: 150px;
+}
+
+
+.footer
+{
+  color:white;
+  position: absolute;
+  bottom: -1680px;
+  left: 0;
+  height:90px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.footer h3{
+  padding-top: 15px;
+}

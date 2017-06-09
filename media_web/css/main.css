@@ -21,7 +21,7 @@ html,body{
   margin-bottom: 20px;
   padding-bottom: 10px;
   padding-left: 30px;
-  border: solid 1px #c0c0c0;
+  border: solid 1px #dcdcdc;
   box-shadow: 5px 5px 10px #999;
 }
 
@@ -163,14 +163,13 @@ color: #4A4A4A;
 
 .footer
 {
-  color:white;
   position: absolute;
   bottom: -1680px;
   left: 0;
   height:90px;
   width: 100%;
   text-align: center;
-  background-color: black;
+  background-color: #696969;
 }
 
 .footer h3{
