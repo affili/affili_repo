@@ -24,6 +24,24 @@ html,body{
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
 }
+.ad {
+  width: 645px;
+  height: 195px;
+  margin-bottom: 10px;
+}
+.ad-box {
+  float: left;
+  width: 235px;
+  height: 195px;
+  background-color: #9B9B9B;
+  margin-left: 65px;
+}
+.ad-box2 {
+  margin-left: 347px;
+  width: 235px;
+  height: 195px;
+  background-color: #9B9B9B;
+}
 
 .post-img{
   width: 210px;
@@ -109,6 +127,15 @@ a{
 #nav-category li a:hover{
   color: #FF5C04;
   padding: 17px 0px 17px 38px;
+}
+
+.right-ad {
+  width: 235px;
+  height: 195px;
+  background-color: #979797;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 49px;
 }
 
 #saide-ranking ul{
