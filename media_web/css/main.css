@@ -163,17 +163,41 @@ color: #4A4A4A;
 }
 
 
-.footer
-{
+footer {
   position: absolute;
   bottom: -1680px;
   left: 0;
-  height:90px;
   width: 100%;
-  text-align: center;
-  background-color: #696969;
+  height: 340px;
+  background-color: black;
+}
+footer {
+  height: 340px;
+  background-color: black;
+}
+.footer-content {
+  width: 1024px;
+  color: white;
+  margin: 0 auto;
+  padding: 54px 0px 0px 60px;
+
+}
+.footer-content h3, h4{
+  margin-bottom: 20px;
+}
+.footer-content ul {
+  list-style: none;
 }
 
-.footer h3{
-  padding-top: 15px;
+.footer-content a {
+  color: white;
+}
+.footer-about {
+  float: left;
+}
+.footer-category {
+  margin-left: 220px;
+}
+.footer-content li a:hover {
+  color: #FF5C04;
 }

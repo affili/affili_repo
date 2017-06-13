@@ -18,7 +18,7 @@ h3{
 }
 #header{
   height: 60px;
-  border-bottom: 1px solid #9B9B9B;
+  border-bottom: 1px solid #E6E6E6;
 }
 #logo {
   height: 60px;
@@ -109,4 +109,30 @@ h3{
 footer {
   height: 340px;
   background-color: black;
+}
+.footer-content {
+  width: 1024px;
+  color: white;
+  margin: 0 auto;
+  padding: 54px 0px 0px 60px;
+
+}
+.footer-content h3, h4{
+  margin-bottom: 20px;
+}
+.footer-content ul {
+  list-style: none;
+}
+
+.footer-content a {
+  color: white;
+}
+.footer-about {
+  float: left;
+}
+.footer-category {
+  margin-left: 220px;
+}
+.footer-content li a:hover {
+  color: #FF5C04;
 }
