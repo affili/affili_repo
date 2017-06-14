@@ -16,11 +16,13 @@ a{
 
 #header{
   height: 560px;
+  background: linear-gradient(45deg, rgba(74, 59, 212, 100), rgba(235, 80, 255, 100));
 }
 #logo {
   height: 60px;
   width: 1024px;
   margin: 0 auto;
+  color: white;
 }
 
 #container{
