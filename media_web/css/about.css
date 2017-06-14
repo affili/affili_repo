@@ -106,6 +106,18 @@ h3{
   margin-left: 20px;
   margin-bottom: 30px;
 }
+.list-style {
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.list-style dt {
+  font-size: 18px;
+  font-weight: bold;
+}
+.list-style dd {
+  font-size: 18px;
+
+}
 footer {
   height: 340px;
   background-color: black;
