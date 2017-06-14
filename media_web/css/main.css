@@ -181,10 +181,11 @@ color: #4A4A4A;
 }
 
 .post-text{
-  width: 500px;
   padding-left: 10px;
+  padding-right: 32px;
   display: block;
-  margin-top: 25px;
+  padding-top: 18px;
+  font-size: 18px;
 }
 .post{
   word-wrap: break-word;
