@@ -4,58 +4,6 @@ html,body{
   margin: 0;
 }
 
-#contents-list{
-  width: 645px;
-  margin-top: 60px;
-  margin-left: 48px;
-  margin-bottom: 35px;
-  height:auto;
-}
-
-#right-side{
-  float: right;
-}
-
-.post{
-  width: 645px;
-  height: 195px;
-  margin-bottom: 10px;
-  border: solid 1px #E6E6E6;
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
-}
-.ad {
-  width: 645px;
-  height: 195px;
-  margin-bottom: 10px;
-}
-.ad-box {
-  float: left;
-  width: 235px;
-  height: 195px;
-  background-color: #9B9B9B;
-  margin-left: 65px;
-}
-.ad-box2 {
-  margin-left: 347px;
-  width: 235px;
-  height: 195px;
-  background-color: #9B9B9B;
-}
-
-.post-img{
-  width: 210px;
-  height: 155px;
-  margin: 20px 10px 20px 25px;
-  float: left;
-}
-
-.post-text{
-  width: 500px;
-  padding-left: 10px;
-  display: block;
-  margin-top: 25px;
-}
 a{
   color: #4A4A4A;
   text-decoration: none;
@@ -65,9 +13,7 @@ a{
   padding: 0;
 }
 
-.said-ranking-h2{
-  text-align: center;
-}
+
 #header{
   height: 560px;
 }
@@ -75,7 +21,6 @@ a{
   height: 60px;
   width: 1024px;
   margin: 0 auto;
-
 }
 
 #container{
@@ -92,8 +37,15 @@ a{
   height: 500px;
   background-color: #9B9B9B;
 }
-#right-side{
-  float: right;
+/*#video{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+
+}*/
+#container{
+
 }
 #nav-category ul{
   width: 235px;
@@ -181,10 +133,62 @@ color: #4A4A4A;
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+#contents-list{
+  width: 645px;
+  margin-top: 60px;
+  margin-left: 48px;
+  margin-bottom: 35px;
+  height:auto;
+}
+
+#right-side{
+  float: right;
+}
+
+.post{
+  width: 645px;
+  height: 195px;
+  margin-bottom: 10px;
+  border: solid 1px #E6E6E6;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.ad {
+  width: 645px;
+  height: 195px;
+  margin-bottom: 10px;
+}
+.ad-box {
+  float: left;
+  width: 235px;
+  height: 195px;
+  background-color: #9B9B9B;
+  margin-left: 65px;
+}
+.ad-box2 {
+  margin-left: 347px;
+  width: 235px;
+  height: 195px;
+  background-color: #9B9B9B;
+}
+
+.post-img{
+  width: 210px;
+  height: 155px;
+  margin: 20px 10px 20px 25px;
+  float: left;
+}
+
+.post-text{
+  width: 500px;
+  padding-left: 10px;
+  display: block;
+  margin-top: 25px;
+}
 .post{
   word-wrap: break-word;
 }
-
 
 footer {
   position: absolute;
