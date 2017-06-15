@@ -14,14 +14,16 @@ http://mediaxis.jp/
     oooooo        oooooo   oooooo     ooooooo   ooooooo     oooooooo
 -->
 <html lang="ja">
+
 <head>
-<meta charset="utf-8" />
-<title>simple media</title>
-<link rel="stylesheet" href="css/page.css" media="screen"/>
-<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
-<!--ビューボードの設置-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>simple media</title>
+  <link rel="stylesheet" href="css/page.css" media="screen" />
+  <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+  <!--ビューボードの設置-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
   <!-- Header -->
@@ -32,123 +34,165 @@ http://mediaxis.jp/
   </div>
   <div id="container">
 
-  <!-- Right Navi -->
-  <div id="right-side">
-  <div id="nav-category">
-    <ul>
-      <li class="nav-top"><a href="#">ガジェット</a></li>
-      <li class="nav"><a href="#">おもちゃ</a></li>
-      <li class="nav"><a href="#">ゲーム</a></li>
-      <li class="nav"><a href="#">趣味</a></li>
-      <li class="nav"><a href="#">ライフスタイル</a></li>
-      <li class="nav"><a href="#">ワークスペース</a></li>
-    </ul>
-  </div>
+    <!-- Right Navi -->
+    <div id="right-side">
+      <div id="nav-category">
+        <ul>
+          <li class="nav-top"><a href="#">ガジェット</a></li>
+          <li class="nav"><a href="#">おもちゃ</a></li>
+          <li class="nav"><a href="#">ゲーム</a></li>
+          <li class="nav"><a href="#">趣味</a></li>
+          <li class="nav"><a href="#">ライフスタイル</a></li>
+          <li class="nav"><a href="#">ワークスペース</a></li>
+        </ul>
+      </div>
 
-  <div class="right-ad"></div>
+      <div class="right-ad"></div>
 
-  <div id="saide-ranking">
-    <ul>
-      <li class="saide-ranking-li"><a href="#">
+      <div id="saide-ranking">
+        <ul>
+          <li class="saide-ranking-li"><a href="#">
         <img src="image/cube.jpg" alt="drone" class="saide-ranking-img" />
         <p class="date">2017.05.05</p>
         <p class="ranking-title"> 新しくダイソンが出たそうなので旧型と比較した</p>
       </a>
-      </li>
-      <li class="saide-ranking-li"><a href="#">
+          </li>
+          <li class="saide-ranking-li"><a href="#">
         <img src="image/cube.jpg" alt="drone" class="saide-ranking-img" />
         <p class="date">2017.05.05</p>
         <p class="ranking-title">新しくダイソンが出たそうなので旧型と比較した</p>
       </a>
-    </li>
-      <li class="saide-ranking-li"><a href="#">
+          </li>
+          <li class="saide-ranking-li"><a href="#">
         <img src="image/cube.jpg" alt="drone" class="saide-ranking-img" />
         <p class="date">2017.05.05</p>
         <p class="ranking-title"> 新しくダイソンが出たそうなので旧型と比較した</p>
       </a>
-      </li>
-      <li class="saide-ranking-li"><a href="#">
+          </li>
+          <li class="saide-ranking-li"><a href="#">
         <img src="image/cube.jpg" alt="drone" class="saide-ranking-img" />
         <p class="date">2017.05.05</p>
         <p class="ranking-title">  新しくダイソンが出たそうなので旧型と比較した</p>
       </a>
-      </li>
-      <li class="saide-ranking-bottom"><a href="#">
+          </li>
+          <li class="saide-ranking-bottom"><a href="#">
         <img src="image/cube.jpg" alt="drone" class="saide-ranking-img" />
         <p class="date">2017.05.05</p>
         <p class="ranking-title">新しくダイソンが出たそうなので旧型と比較した</p>
       </a>
-      </li>
-    </ul>
-  </div>
-</div>
-<div id="contents-list">
-<!-- page-contents -->
-<div id="page-main-content">
-  <div class="page-content">
-    <h2>h1 — This is a main title aaa</h2>
-    <img src="image/drone.jpg" alt="drone"  />
-    <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
-    <img src="image/drone.jpg" alt="drone"  />
-    <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
-
-    <!--AD挿入場所-->
-    <div class="adsence">
-      <div class="page-right-ad"></div>
-      <div class="page-left-ad"></div>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div id="contents-list">
+      <!-- page-contents -->
+      <div id="page-main-content">
+        <div class="page-content">
+          <h2>h1 — This is a main title aaa</h2>
+          <img src="image/drone.jpg" alt="drone" />
+          <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
+          <img src="image/drone.jpg" alt="drone" />
+          <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium.</p>
 
-    <!--SNS-->
-    <div id="share">
-      <ul>
-        <!-- Twitter -->
-        <li class="share-twitter">
-        <a href="http://twitter.com/home?status=<?php echo urlencode(the_title_attribute('echo=0')); ?>%20<?php the_permalink(); ?>%20by%20" target="_blank">Twitter</a>
-        </li>
-        <!-- Facebook -->
-        <li class="share-facebook">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank">Facebook</a>
-        </li>
-        <!-- Google+ -->
-        <li class="share-google">
-        <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target="_blank">Google+</a>
-        </li>
-        <!-- はてなブックマーク -->
-        <li class="share-hatena">
-        <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank">はてブ</a>
-        </li>
-        <!-- LINE -->
-        <li class="share-line">
-        <a href="http://line.me/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>">LINE</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!-- Footer -->
-    <footer>
-      <div class="footer-content">
-        <div class="footer-about">
-          <h3>About us</h3>
-          <ul>
-            <li><a href="about/kaisha.html">会社概要</a></li>
-            <li><a href="about/riyou.html">利用規約</a></li>
-            <li><a href="about/privacy.html">プライバシーポリシー</a></li>
-          </ul>
+        <!--AD挿入場所-->
+        <div class="adsence">
+          <div class="page-right-ad"></div>
+          <div class="page-left-ad"></div>
         </div>
-        <div class="footer-category">
-          <h4>商品カテゴリー</h4>
+      </div>
+
+        <!--おすすめ記事-->
+        <div id="recommended-content">
+          <h2>おすすめ記事</h2>
+          <div class="reco-content">
+            <a href="#">
+            <img src="image/girl.jpg" alt="girl" />
+            <p class="date">2017.05.05</p>
+            <h3 class="title">1ポンドのハンバーグを食べたら逆に１ポンド痩せた</h3>
+          </a>
+          </a>
+          </div>
+          <div class="reco-content">
+            <a href="#">
+            <img src="image/girl.jpg" alt="girl" />
+            <p class="date">2017.05.05</p>
+            <h3 class="title">1ポンドのハンバーグを食べたら逆に１ポンド痩せた</h3>
+          </a>
+          </div>
+          <div class="reco-content">
+            <a href="#">
+            <img src="image/girl.jpg" alt="girl" />
+            <p class="date">2017.05.05</p>
+            <h3 class="title">1ポンドのハンバーグを食べたら逆に１ポンド痩せた</h3>
+          </a>
+          </div>
+          <div class="reco-content">
+            <a href="#">
+            <img src="image/girl.jpg" alt="girl" />
+            <p class="date">2017.05.05</p>
+            <h3 class="title">1ポンドのハンバーグを食べたら逆に１ポンド痩せた</h3>
+          </a>
+          </div>
+          <div class="reco-content">
+            <a href="#">
+            <img src="image/girl.jpg" alt="girl" />
+            <p class="date">2017.05.05</p>
+            <h3 class="title">1ポンドのハンバーグを食べたら逆に１ポンド痩せた</h3>
+          </a>
+          </div>
+        </div>
+
+        <!--SNS-->
+        <div id="share">
           <ul>
-            <li><a href="#">ガジェット</a></li>
-            <li><a href="#">おもちゃ</a></li>
-            <li><a href="#">ゲーム</a></li>
-            <li><a href="#">趣味</a></li>
-            <li><a href="#">ライフスタイル</a></li>
-            <li><a href="#">ワークスペース</a></li>
+            <!-- Twitter -->
+            <li class="share-twitter">
+              <a href="http://twitter.com/home?status=<?php echo urlencode(the_title_attribute('echo=0')); ?>%20<?php the_permalink(); ?>%20by%20" target="_blank">Twitter</a>
+            </li>
+            <!-- Facebook -->
+            <li class="share-facebook">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank">Facebook</a>
+            </li>
+            <!-- Google+ -->
+            <li class="share-google">
+              <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target="_blank">Google+</a>
+            </li>
+            <!-- はてなブックマーク -->
+            <li class="share-hatena">
+              <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank">はてブ</a>
+            </li>
+            <!-- LINE -->
+            <li class="share-line">
+              <a href="http://line.me/R/msg/text/?<?php the_title(); ?>%0D%0A<?php the_permalink(); ?>">LINE</a>
+            </li>
           </ul>
         </div>
       </div>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>About us</h3>
+            <ul>
+              <li><a href="about/kaisha.html">会社概要</a></li>
+              <li><a href="about/riyou.html">利用規約</a></li>
+              <li><a href="about/privacy.html">プライバシーポリシー</a></li>
+            </ul>
+          </div>
+          <div class="footer-category">
+            <h4>商品カテゴリー</h4>
+            <ul>
+              <li><a href="#">ガジェット</a></li>
+              <li><a href="#">おもちゃ</a></li>
+              <li><a href="#">ゲーム</a></li>
+              <li><a href="#">趣味</a></li>
+              <li><a href="#">ライフスタイル</a></li>
+              <li><a href="#">ワークスペース</a></li>
+            </ul>
+          </div>
+        </div>
     </div>
     </footer>
 </body>
+
 </html>

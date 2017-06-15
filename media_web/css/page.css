@@ -1,6 +1,6 @@
 html,body{
   width: 100%;
-  height: 100%auto;
+  height: 100% auto;
   margin: 0;
 }
 
@@ -12,6 +12,8 @@ a{
   margin: 0;
   padding: 0;
 }
+
+/* header layout */
 #header{
   height: 60px;
   background: linear-gradient(45deg, rgba(74, 59, 212, 100), rgba(235, 80, 255, 100));
@@ -34,6 +36,8 @@ a{
   font-size: 24px;
   padding: 14px 0 15px 60px;
 }
+
+/* Navi layout */
 #nav-category ul{
   width: 235px;
   min-height:  279px;
@@ -68,6 +72,7 @@ a{
   padding: 17px 0px 17px 38px;
 }
 
+/* Adsence */
 .right-ad {
   width: 235px;
   height: 195px;
@@ -77,6 +82,7 @@ a{
   margin-left: 49px;
 }
 
+/* ranking layout */
 #saide-ranking ul{
   width: 235px;
   height: auto;
@@ -120,7 +126,7 @@ color: #4A4A4A;
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
+/* Main content */
 #contents-list{
   width: 645px;
   margin-top: 60px;
@@ -157,6 +163,8 @@ color: #4A4A4A;
   padding: 40px 20px;
   font-size: 18px;
 }
+
+/* Adsence */
 .adsence {
   width: 540px;
   height: 195px;
@@ -175,12 +183,45 @@ color: #4A4A4A;
   height: 195px;
   background-color: #9B9B9B;
 }
+
+/* recommend layout */
+#recommended-content {
+  width: 540px;
+  height: auto;
+  margin: 0 auto;
+}
+#recommended-content h2{
+  padding: 20px 0px 0px 20px;
+}
+.reco-content {
+  width: 540px;
+  height: 130px;
+  margin: 20px 0px;
+  background-color: white;
+  border: 1px solid #D8D8D8;
+  border-radius: 12px;
+}
+.reco-content img {
+  width: 140px;
+  height: 100px;
+  float: left;
+  margin: 15px 15px;
+}
+.reco-content p {
+  padding: 15px 0px 0px 0;
+}
+.title {
+  padding: 10px 40px 15px 0px;
+}
+
+/* Shere content layout */
 #share{
 }
 
 #share ul{
 	height:auto;
   margin: 45px 20px;
+  padding-left: 57px;
 }
 #share li{
   display: inline-block;
@@ -241,6 +282,8 @@ color: #4A4A4A;
 	text-decoration:none;
 	color:#ffffff;
 }
+
+/* Footer layout */
 footer {
   position: absolute;
   left: 0;
