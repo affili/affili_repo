@@ -157,13 +157,22 @@ color: #4A4A4A;
   height: 380px;
 }
 .page-content h2 {
-  padding: 40px 20px ;
+  padding: 40px 20px 20px 20px ;
 }
-.page-content p{
+.main-text{
   padding: 40px 20px;
   font-size: 18px;
 }
-
+.page-category {
+  font-size: 14px;
+  padding: 20px 0px 20px 20px;
+  float: left;
+}
+.page-date {
+  font-size: 14px;
+  float: right;
+  padding: 20px 20px 20px 0px;
+}
 /* Adsence */
 .adsence {
   width: 540px;
