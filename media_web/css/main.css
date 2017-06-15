@@ -13,7 +13,7 @@ a{
   padding: 0;
 }
 
-
+/* Header */
 #header{
   height: 560px;
   background: linear-gradient(45deg, rgba(74, 59, 212, 100), rgba(235, 80, 255, 100));
@@ -46,6 +46,9 @@ a{
   padding: 0;
 
 }*/
+
+
+/* category */
 #container{
 
 }
@@ -87,11 +90,12 @@ a{
   width: 235px;
   height: 195px;
   background-color: #979797;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 49px;
 }
 
+/* ranking */
 #saide-ranking ul{
   width: 235px;
   height: auto;
@@ -135,12 +139,12 @@ color: #4A4A4A;
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
+/* Contents */
 #contents-list{
   width: 645px;
   margin-top: 60px;
   margin-left: 48px;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
   height:auto;
 }
 
@@ -156,10 +160,12 @@ color: #4A4A4A;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
 }
+/* Adsence */
 .ad {
   width: 645px;
   height: 195px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .ad-box {
   float: left;
@@ -175,6 +181,7 @@ color: #4A4A4A;
   background-color: #9B9B9B;
 }
 
+/* Post contents */
 .post-img{
   width: 210px;
   height: 155px;
@@ -193,6 +200,7 @@ color: #4A4A4A;
   word-wrap: break-word;
 }
 
+/* footer */
 footer {
   position: absolute;
   left: 0;
